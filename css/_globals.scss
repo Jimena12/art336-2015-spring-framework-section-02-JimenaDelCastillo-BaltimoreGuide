@@ -1,0 +1,26 @@
+/* Globals.scss */
+@import url(http://fonts.googleapis.com/css?family=Cabin:400,500|Montserrat);
+
+@mixin body-font {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 400;
+}
+
+@mixin body-font-italic {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 400;
+}
+
+@mixin body-font-bold {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+}
+
+@mixin headline-font {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 500;
+}
